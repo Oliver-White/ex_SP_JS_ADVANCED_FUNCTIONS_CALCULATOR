@@ -11,12 +11,10 @@ var number_two = 'null';
 
 document.getElementById("number_one").addEventListener("keyup", function(){
   number_one = parseInt(document.getElementById("number_one").value);
-  console.log('number_one: ', number_one);
 });
 
 document.getElementById("number_two").addEventListener("keyup", function(){
   number_two = parseInt(document.getElementById("number_two").value);
-  console.log('number_two: ', number_two);
 });
 
 function sum(a, b){
